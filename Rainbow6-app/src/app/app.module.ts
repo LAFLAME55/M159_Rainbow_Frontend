@@ -7,18 +7,24 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import {MatToolbarModule} from "@angular/material/toolbar";
 import {MatIconModule} from "@angular/material/icon";
+import {MatButtonModule} from "@angular/material/button";
+import {FooterComponent} from "./footer/footer.component";
+import {AngularEmojisModule} from "angular-emojis";
 
 @NgModule({
   declarations: [
     AppComponent,
-    ToolbarComponent
+    ToolbarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatToolbarModule,
-    MatIconModule
+    MatIconModule,
+    MatButtonModule,
+    AngularEmojisModule
   ],
   providers: [],
   bootstrap: [AppComponent]
