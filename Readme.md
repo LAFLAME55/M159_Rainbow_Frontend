@@ -1,4 +1,4 @@
-# Readme for the Repo M159_Digiteck_Frontend
+# Readme for the Repo M159_Rainbow_Frontend
 
 Downloadlist
 
