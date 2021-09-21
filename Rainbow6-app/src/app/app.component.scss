@@ -1,12 +1,26 @@
 .picture-outline{
   border: 5px solid indigo;
-  margin-top: 2%;
   width: max-content;
   height: max-content;
-  margin-left: 19%;
+  margin: auto;
+  margin-top: 1%;
+}
+
+.comment-outline{
+  border: 5px solid indigo;
+  width: fit-content;
+  height: max-content;
+  margin-left: 2%;
+  margin-top: 1% ;
+  padding: 1%;
+
 }
 
 .underline{
   border: 5px solid indigo;
   margin-top: 3%;
+}
+
+.mat-card-home{
+  width: max-content;
 }

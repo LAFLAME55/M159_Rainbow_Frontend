@@ -10,6 +10,7 @@ import {MatIconModule} from "@angular/material/icon";
 import {MatButtonModule} from "@angular/material/button";
 import {FooterComponent} from "./footer/footer.component";
 import {AngularEmojisModule} from "angular-emojis";
+import {MatCardModule} from "@angular/material/card";
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import {AngularEmojisModule} from "angular-emojis";
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,
-    AngularEmojisModule
+    AngularEmojisModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
