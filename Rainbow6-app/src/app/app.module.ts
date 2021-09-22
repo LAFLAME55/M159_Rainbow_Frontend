@@ -11,12 +11,19 @@ import {MatButtonModule} from "@angular/material/button";
 import {FooterComponent} from "./footer/footer.component";
 import {AngularEmojisModule} from "angular-emojis";
 import {MatCardModule} from "@angular/material/card";
+import {MatSidenavModule} from "@angular/material/sidenav";
+import { OverviewComponent } from './overview/overview.component';
+import { OperatorsComponent } from './operators/operators.component';
+import { StoreComponent } from './store/store.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ToolbarComponent,
-    FooterComponent
+    FooterComponent,
+    OverviewComponent,
+    OperatorsComponent,
+    StoreComponent
   ],
   imports: [
     BrowserModule,
@@ -26,7 +33,8 @@ import {MatCardModule} from "@angular/material/card";
     MatIconModule,
     MatButtonModule,
     AngularEmojisModule,
-    MatCardModule
+    MatCardModule,
+    MatSidenavModule
   ],
   providers: [],
   bootstrap: [AppComponent]
