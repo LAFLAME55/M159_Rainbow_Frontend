@@ -1,31 +1,47 @@
-<app-toolbar></app-toolbar>
-<div style="font-family: Roboto,Helvetica Neue sans-serif; color: white; margin: auto ">
-  <div style="font-size: xxx-large; width: fit-content; margin-left: 25%; margin-top: 5%; font-weight: bold;"> Willkommen zum Rainbow Six Siege Wiki
-    <angular-emojis [name]="'smiley'" size="45"></angular-emojis>
-    <div class="underline"></div>
+<mat-toolbar color="primary">
+  <span style="margin-right: 70%">Rainbow Six Siege Wiki</span>
+  <div>
+    <nav class="navbar navbar-fixed-top navbar-dark bg-inverse">
+      <div class="container">
+        <ul class="nav navbar-nav" routerLinkActive="active">
+          <button mat-raised-button color="primary"><a class="nav-link" routerLink="home">Home</a></button>
+          <button mat-raised-button color="primary"><a class="nav-link" routerLink="overview">Overview</a></button>
+          <button mat-raised-button color="primary"><a class="nav-link" routerLink="operators">Operators</a></button>
+          <button mat-raised-button color="primary"><a class="nav-link" routerLink="store">Store</a></button>
+        </ul>
+      </div>
+    </nav>
   </div>
-  <br>
-  <br>
-  <div class="picture-outline" style="margin-bottom: 5%">
-    <img src="assets/titel_bild.jpg">
-  </div>
+</mat-toolbar>
+<router-outlet></router-outlet>
+    <app-footer></app-footer>
+<!--<div style="font-family: Roboto,Helvetica Neue sans-serif; color: white; margin: auto ">-->
+<!--  <div style="font-size: xxx-large; width: fit-content; margin-left: 25%; margin-top: 5%; font-weight: bold;"> Willkommen zum Rainbow Six Siege Wiki-->
+<!--    <angular-emojis [name]="'smiley'" size="45"></angular-emojis>-->
+<!--    <div class="underline"></div>-->
+<!--  </div>-->
+<!--  <br>-->
+<!--  <br>-->
+<!--  <div class="picture-outline" style="margin-bottom: 5%">-->
+<!--    <img src="assets/titel_bild.jpg">-->
+<!--  </div>-->
 
-  <div style="display: flex; flex-direction: row; border: 5px solid indigo; width: 90%; margin: auto"></div>
+<!--  <div style="display: flex; flex-direction: row; border: 5px solid indigo; width: 90%; margin: auto"></div>-->
 
-  <div class="content-container-home" >
-    <div class="comment-outline">
-      <h1 style="text-decoration: underline">Comment Section</h1>
-      <mat-card class="mat-card-home" style="box-shadow: 5px 5px; font-size: larger">Dieses Spiel ist eine 10 von 10. Ich spiele es jeden Tag mit meinen Freunden. <p STYLE="font-weight: bold">GamerID: xx_Darkknight_xx</p></mat-card>
-      <br>
-      <mat-card class="mat-card-home" style="box-shadow: 5px 5px; font-size: larger">Gutes Spiel, aber die Server von Ubisoft könnten einen Service gebrauchen. <p style="font-weight: bold">GamerID: BIG_SMEIL03</p></mat-card>
-      <br>
-      <mat-card class="mat-card-home" style="box-shadow: 5px 5px; font-size: larger">Hat zu viele Tryhards 6/10. <p style="font-weight: bold">GamerID: Dragotronix</p></mat-card>
-    </div>
-      <img src="../assets/Rainbow-Six-Siege-658x370-da3f7af90337ff6a.jpg" alt="Titelbild Rainbow Six" id="titelbild" class="picture-outline">
-  </div>
-  <app-footer></app-footer>
-  <div style="display: flex; flex-direction: column; color: indigo"></div>
-</div>
+<!--  <div class="content-container-home" >-->
+<!--    <div class="comment-outline">-->
+<!--      <h1 style="text-decoration: underline">Comment Section</h1>-->
+<!--      <mat-card class="mat-card-home" style="box-shadow: 5px 5px; font-size: larger">Dieses Spiel ist eine 10 von 10. Ich spiele es jeden Tag mit meinen Freunden. <p STYLE="font-weight: bold">GamerID: xx_Darkknight_xx</p></mat-card>-->
+<!--      <br>-->
+<!--      <mat-card class="mat-card-home" style="box-shadow: 5px 5px; font-size: larger">Gutes Spiel, aber die Server von Ubisoft könnten einen Service gebrauchen. <p style="font-weight: bold">GamerID: BIG_SMEIL03</p></mat-card>-->
+<!--      <br>-->
+<!--      <mat-card class="mat-card-home" style="box-shadow: 5px 5px; font-size: larger">Hat zu viele Tryhards 6/10. <p style="font-weight: bold">GamerID: Dragotronix</p></mat-card>-->
+<!--    </div>-->
+<!--      <img src="../assets/Rainbow-Six-Siege-658x370-da3f7af90337ff6a.jpg" alt="Titelbild Rainbow Six" id="titelbild" class="picture-outline">-->
+<!--  </div>-->
+<!--  <app-footer></app-footer>-->
+<!--  <div style="display: flex; flex-direction: column; color: indigo"></div>-->
+<!--</div>-->
 
 
 <!--<style>-->

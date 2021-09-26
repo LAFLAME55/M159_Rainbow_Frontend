@@ -15,6 +15,8 @@ import {MatSidenavModule} from "@angular/material/sidenav";
 import { OverviewComponent } from './overview/overview.component';
 import { OperatorsComponent } from './operators/operators.component';
 import { StoreComponent } from './store/store.component';
+import {NavbarModule} from "ng-uikit-pro-standard";
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,8 @@ import { StoreComponent } from './store/store.component';
     FooterComponent,
     OverviewComponent,
     OperatorsComponent,
-    StoreComponent
+    StoreComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
@@ -34,7 +37,9 @@ import { StoreComponent } from './store/store.component';
     MatButtonModule,
     AngularEmojisModule,
     MatCardModule,
-    MatSidenavModule
+    MatSidenavModule,
+    NavbarModule,
+    NavbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

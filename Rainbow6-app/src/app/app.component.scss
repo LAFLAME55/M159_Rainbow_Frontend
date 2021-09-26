@@ -1,34 +1,5 @@
-.picture-outline{
-  border: 5px solid indigo;
-  width: max-content;
-  height: max-content;
-  display: flex;
-  flex-direction: row;
-  margin: auto;
+.nav-link{
+  text-decoration: none;
+  color: white;
 }
 
-.comment-outline{
-  border: 5px solid indigo;
-  width: fit-content;
-  height: max-content;
-  margin: auto;
-  padding: 1%;
-  display: flex;
-  flex-direction: column;
-  margin-top: 0.1%;
-}
-
-.underline{
-  border: 5px solid indigo;
-  margin-top: 3%;
-}
-
-.mat-card-home{
-  width: max-content;
-}
-
-.content-container-home{
-  display: flex;
-  flex-direction: row;
-  margin-top: 3%;
-}

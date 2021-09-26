@@ -4,13 +4,16 @@ import {OverviewComponent} from "./overview/overview.component";
 import {OperatorsComponent} from "./operators/operators.component";
 import {StoreComponent} from "./store/store.component";
 import {AppComponent} from "./app.component";
+import {HomeComponent} from "./home/home.component";
 
 
 const routes: Routes = [
-  { path: 'home', component: AppComponent},
-  { path: 'overview', component: OverviewComponent },
-  { path: 'operators', component: OperatorsComponent},
-  { path: 'store', component: StoreComponent}
+  { path: 'home', component: HomeComponent, pathMatch: 'full'},
+  { path: 'overview', component: OverviewComponent, pathMatch: 'full' },
+  { path: 'operators', component: OperatorsComponent, pathMatch: 'full'},
+  { path: 'store', component: StoreComponent, pathMatch: 'full'},
+  {path: '', component: AppComponent, pathMatch: 'full'}
+
 ];
 
 @NgModule({

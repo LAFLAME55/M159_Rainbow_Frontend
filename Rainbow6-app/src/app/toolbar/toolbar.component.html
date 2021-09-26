@@ -20,15 +20,34 @@
     </button>
     <span>Rainbow Six Siege Wiki</span>
     <div>
-      <span class="nav-obj"><a routerLink="/home" routerLinkActive="active">Home</a></span>
-      <span class="nav-obj"><a routerLinkActive="active" routerLink="/overview">Overview</a></span>
-      <span class="nav-obj"><a routerLinkActive="active" routerLink="/operators">Operators</a></span>
-      <span class="nav-obj"><a routerLinkActive="active" routerLink="/store">Store</a></span>
+      <nav class="navbar navbar-fixed-top navbar-dark bg-inverse">
+        <div class="container">
+          <a class="navbar-brand">Angular Router</a>
+          <ul class="nav navbar-nav" routerLinkActive="active">
+            <span class="nav-item"><a class="nav-link" routerLink="home">Home</a></span>
+            <span class="nav-item"><a class="nav-link" routerLink="overview">Overview</a></span>
+            <span class="nav-item"><a class="nav-link" routerLink="operators">Operators</a></span>
+            <span class="nav-item"><a class="nav-link" routerLink="store">Store</a></span>
+          </ul>
+        </div>
+      </nav>
 
+
+
+
+
+<!--      <nav>-->
+<!--        <ul>-->
+<!--        <span class="nav-obj"><a routerLink="/home" routerLinkActive="active">Home</a></span>-->
+<!--        <span class="nav-obj"><a routerLinkActive="active" routerLink="/overview">Overview</a></span>-->
+<!--        <span class="nav-obj"><a routerLinkActive="active" routerLink="/operators">Operators</a></span>-->
+<!--        <span class="nav-obj"><a href="#store" routerLinkActive="active" routerLink="/store">Store</a></span>-->
+<!--        </ul>-->
+<!--      </nav>-->
       <!--     <span routerLink="/overview" routerLinkActive="active" class="nav-obj">Overview</span><br>-->
 <!--      <span routerLink="/operators" routerLinkActive="active" class="nav-obj">Operators</span><br>-->
 <!--      <span routerLink="/store" routerLinkActive="active" class="nav-obj">Store</span><br>-->
     </div>
-      <!--    <router-outlet></router-outlet>-->
+          <router-outlet></router-outlet>
     <span class="example-spacer"></span>
   </mat-toolbar>

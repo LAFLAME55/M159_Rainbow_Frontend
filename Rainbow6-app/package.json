@@ -22,6 +22,7 @@
     "@angular/router": "~12.2.0",
     "angular-emojis": "^1.0.0",
     "angular-typing-animation": "^0.5.4",
+    "ng-uikit-pro-standard": "^1.0.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"

@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {ActivatedRoute, Router} from "@angular/router";
+// For MDB Angular Pro
+import { NavbarModule, WavesModule, ButtonsModule } from 'ng-uikit-pro-standard'
 
 @Component({
   selector: 'app-toolbar',
@@ -25,7 +27,7 @@ export class ToolbarComponent implements OnInit {
   // }
 
   goHome(){
-    this.router.navigate(['']);
+    this.router.navigate(['home']);
   }
 
   goOverview(){
