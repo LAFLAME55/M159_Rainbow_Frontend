@@ -1,0 +1,19 @@
+.underline{
+  border: 5px solid indigo;
+  margin-top: 20%;
+}
+
+.example-card {
+  max-width: 400px;
+  margin: auto;
+  margin-top: 2%;
+}
+
+.example-header-image {
+  background-size: cover;
+}
+
+.maps-container{
+  display: flex;
+  flex-direction: row;
+}

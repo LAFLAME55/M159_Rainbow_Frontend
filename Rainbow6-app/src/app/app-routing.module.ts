@@ -9,7 +9,7 @@ import {HomeComponent} from "./home/home.component";
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent, pathMatch: 'full'},
-  { path: 'overview', component: OverviewComponent, pathMatch: 'full' },
+  { path: 'maps', component: OverviewComponent, pathMatch: 'full' },
   { path: 'operators', component: OperatorsComponent, pathMatch: 'full'},
   { path: 'store', component: StoreComponent, pathMatch: 'full'},
   {path: '', component: AppComponent, pathMatch: 'full'}
