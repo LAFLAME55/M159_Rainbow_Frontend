@@ -9,7 +9,54 @@
   margin-top: 2%;
 }
 
-.example-header-image {
+.ops-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.example-header-image0{
+  background-size: cover;
+  background-image: url("https://static.wikia.nocookie.net/rainbowsix/images/8/8c/Tachanka_Badge_Rework.png/revision/latest/scale-to-width-down/250?cb=20201008005243");
+}
+.example-header-image1{
+  background-size: cover;
+  background-image: url("https://static.wikia.nocookie.net/rainbowsix/images/3/3f/Fuze_Badge_2.png/revision/latest/scale-to-width/360?cb=20151222045524");
+}
+.example-header-image2{
+  background-size: cover;
+  background-image: url("https://static.wikia.nocookie.net/rainbowsix/images/5/5c/Blitz_Badge_New.png/revision/latest/scale-to-width-down/100?cb=20151202041430");
+}
+.example-header-image3{
+  background-size: cover;
+  background-image: url("https://static.wikia.nocookie.net/rainbowsix/images/c/c4/Bandit_Badge_New.png/revision/latest/scale-to-width-down/100?cb=20151202041419");
+}
+.example-header-image4{
+  background-size: cover;
+  background-image: url("https://static.wikia.nocookie.net/rainbowsix/images/9/9b/J%C3%A4ger_Badge_New.png/revision/latest/scale-to-width-down/100?cb=20151202041442");
+}.example-header-image5{
+   background-size: cover;
+   background-image: url("https://static.wikia.nocookie.net/rainbowsix/images/3/35/Twitch_Badge_New.png/revision/latest/scale-to-width-down/100?cb=20151202033541");
+ }
+.example-header-image6{
+    background-size: cover;
+    background-image: url("https://static.wikia.nocookie.net/rainbowsix/images/9/95/Mute_Icon_-_Simplified.png/revision/latest/scale-to-width-down/100?cb=20151202041451");
+  }
+.example-header-image7{
+     background-size: cover;
+     background-image: url("https://static.wikia.nocookie.net/rainbowsix/images/e/e6/Smoke_Icon_-_Simplified.png/revision/latest/scale-to-width-down/100?cb=20151202041504");
+   }
+.example-header-image8{
+      background-size: cover;
+      background-image: url("https://static.wikia.nocookie.net/rainbowsix/images/1/1d/Vigil_icon.png/revision/latest/scale-to-width-down/160?cb=20171120223005");
+    }
+.example-header-image9{
+       background-size: cover;
+       background-image: url("https://static.wikia.nocookie.net/rainbowsix/images/e/e1/Iana_Icon.png/revision/latest/scale-to-width-down/100?cb=20200311062422");
+     }
+
+
+
+.example-header-image0 {
   background-size: cover;
 }
 

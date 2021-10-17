@@ -9,7 +9,7 @@
   margin-top: 2%;
 }
 
-.example-header-image {
+.example-header-image0 {
   background-size: cover;
 }
 
@@ -19,13 +19,27 @@
   margin-top: 3%;
 }
 
-.picture{
+.picture1{
+  margin: auto;
+}
+.picture2{
   margin: auto;
 }
 
 .picture-description{
   font-size: x-large;
+  display: flex;
+  flex-direction: row;
   margin: auto;
   margin-top: 2%;
+  max-width: 400px;
+  height: 90px;
+}
+button{
+  max-width: 400px;
+  height: max-content;
+}
 
+mat-dialog-container{
+  background-color: #202124;
 }

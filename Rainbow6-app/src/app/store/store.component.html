@@ -3,13 +3,17 @@
     <div class="underline"></div>
   </div>
   <div class="store-container">
-    <div class="picture">
-      <img src="assets/standard-spiel.webp">
-      <p class="picture-description">Standard-Edition</p>
+    <div class="picture1">
+      <button mat-raised-button color="primary" (click)="openDialog()">
+        <img src="assets/standard-spiel.webp" style="margin-top: 3%">
+        <p class="picture-description">Standard-Edition (Basisspiel)</p>
+      </button>
     </div>
-    <div class="picture">
-      <img src="assets/deluxe-spiel.webp">
-      <p class="picture-description">Deluxe-Edition</p>
+    <div class="picture2">
+      <button mat-raised-button color="primary" (click)="openDialog()">
+        <img src="assets/deluxe-spiel.webp" style="margin-top: 5%">
+        <p class="picture-description">Deluxe-Edition (Basisspiel <br>+ Operators aus Year 1&2)</p>
+      </button>
     </div>
   </div>
 </div>

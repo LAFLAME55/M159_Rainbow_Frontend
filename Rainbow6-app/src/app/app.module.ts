@@ -17,6 +17,8 @@ import { OperatorsComponent } from './operators/operators.component';
 import { StoreComponent } from './store/store.component';
 import {NavbarModule} from "ng-uikit-pro-standard";
 import { HomeComponent } from './home/home.component';
+import { StoreDialogComponent } from './dialog/store-dialog/store-dialog.component';
+import {MatDialogModule} from "@angular/material/dialog";
 
 @NgModule({
   declarations: [
@@ -26,7 +28,8 @@ import { HomeComponent } from './home/home.component';
     OverviewComponent,
     OperatorsComponent,
     StoreComponent,
-    HomeComponent
+    HomeComponent,
+    StoreDialogComponent
   ],
   imports: [
     BrowserModule,
@@ -35,6 +38,7 @@ import { HomeComponent } from './home/home.component';
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,
+    MatDialogModule,
     AngularEmojisModule,
     MatCardModule,
     MatSidenavModule,

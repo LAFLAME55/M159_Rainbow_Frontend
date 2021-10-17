@@ -9,7 +9,12 @@
   margin-top: 2%;
 }
 
-.example-header-image {
+.ops-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.example-header-image0 {
   background-size: cover;
 }
 
