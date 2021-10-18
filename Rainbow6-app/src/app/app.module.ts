@@ -19,6 +19,9 @@ import {NavbarModule} from "ng-uikit-pro-standard";
 import { HomeComponent } from './home/home.component';
 import { StoreDialogComponent } from './dialog/store-dialog/store-dialog.component';
 import {MatDialogModule} from "@angular/material/dialog";
+import {MatStepperModule} from "@angular/material/stepper";
+import {MatFormFieldModule} from "@angular/material/form-field";
+import {ReactiveFormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -43,7 +46,10 @@ import {MatDialogModule} from "@angular/material/dialog";
     MatCardModule,
     MatSidenavModule,
     NavbarModule,
-    NavbarModule
+    NavbarModule,
+    MatStepperModule,
+    MatFormFieldModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

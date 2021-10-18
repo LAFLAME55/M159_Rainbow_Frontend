@@ -21,8 +21,8 @@ export class StoreComponent implements OnInit {
     dialogConfig.disableClose = false;
     dialogConfig.autoFocus = true;
     dialogConfig.closeOnNavigation = true;
-    dialogConfig.width = "500px";
-    dialogConfig.height = '450px';
+    dialogConfig.width = "1250px";
+    dialogConfig.height = '800px';
 
     const dialogRef = this.dialog.open(StoreDialogComponent, dialogConfig);
     dialogRef.afterClosed().subscribe(result =>{

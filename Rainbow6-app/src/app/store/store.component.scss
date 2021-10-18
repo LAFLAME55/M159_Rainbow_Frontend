@@ -30,11 +30,19 @@
   font-size: x-large;
   display: flex;
   flex-direction: row;
-  margin: auto;
-  margin-top: 2%;
-  max-width: 400px;
+  //margin: auto;
+  //margin-top: 2%;
   height: 90px;
 }
+
+.picture-description-price{
+  font-size: x-large;
+  display: flex;
+  flex-direction: row;
+  //margin: auto;
+  //margin-top: 2%;
+}
+
 button{
   max-width: 400px;
   height: max-content;
