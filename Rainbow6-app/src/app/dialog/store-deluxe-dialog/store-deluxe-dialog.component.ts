@@ -1,15 +1,14 @@
 import { Component, OnInit } from '@angular/core';
-import {MatStepperModule} from '@angular/material/stepper';
-import {FormBuilder, FormControl, FormGroup, Validators} from "@angular/forms";
+import {FormBuilder} from "@angular/forms";
 import {MatDialogRef} from "@angular/material/dialog";
 import {StoreComponent} from "../../store/store.component";
 
 @Component({
-  selector: 'app-store-dialog',
-  templateUrl: './store-dialog.component.html',
-  styleUrls: ['./store-dialog.component.scss']
+  selector: 'app-store-deluxe-dialog',
+  templateUrl: './store-deluxe-dialog.component.html',
+  styleUrls: ['./store-deluxe-dialog.component.scss']
 })
-export class StoreDialogComponent implements OnInit {
+export class StoreDeluxeDialogComponent implements OnInit {
 
   constructor(private _formBuilder: FormBuilder, public dialogRef: MatDialogRef<StoreComponent>) { }
 

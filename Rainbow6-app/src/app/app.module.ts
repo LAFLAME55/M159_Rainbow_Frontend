@@ -22,6 +22,8 @@ import {MatDialogModule} from "@angular/material/dialog";
 import {MatStepperModule} from "@angular/material/stepper";
 import {MatFormFieldModule} from "@angular/material/form-field";
 import {ReactiveFormsModule} from "@angular/forms";
+import {MatInputModule} from "@angular/material/input";
+import { StoreDeluxeDialogComponent } from './dialog/store-deluxe-dialog/store-deluxe-dialog.component';
 
 @NgModule({
   declarations: [
@@ -32,25 +34,27 @@ import {ReactiveFormsModule} from "@angular/forms";
     OperatorsComponent,
     StoreComponent,
     HomeComponent,
-    StoreDialogComponent
+    StoreDialogComponent,
+    StoreDeluxeDialogComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    BrowserAnimationsModule,
-    MatToolbarModule,
-    MatIconModule,
-    MatButtonModule,
-    MatDialogModule,
-    AngularEmojisModule,
-    MatCardModule,
-    MatSidenavModule,
-    NavbarModule,
-    NavbarModule,
-    MatStepperModule,
-    MatFormFieldModule,
-    ReactiveFormsModule
-  ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        BrowserAnimationsModule,
+        MatToolbarModule,
+        MatIconModule,
+        MatButtonModule,
+        MatDialogModule,
+        AngularEmojisModule,
+        MatCardModule,
+        MatSidenavModule,
+        NavbarModule,
+        NavbarModule,
+        MatStepperModule,
+        MatFormFieldModule,
+        ReactiveFormsModule,
+        MatInputModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
